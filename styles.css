@@ -8,7 +8,6 @@ body
 h1
 {
     font-size: 30vw;
-
     letter-spacing: -3vw;
     color: rgb(0,255,255);
     font-style: italic;
@@ -21,6 +20,7 @@ h1
     line-height: 8vw;
     animation-name: header2anim;
     animation-duration: 0.4s;
+    width: 80%;
 }
 
 #firstHeader
@@ -51,6 +51,15 @@ p
 {
     margin-top: -3vw;
     margin-left: 13vw;
+    line-height: 18pt;
+}
+
+#chapter::first-letter
+{
+    font-size: 42pt;
+    color: rgb(0, 255, 255);
+    font-style: italic;
+    line-height: 11pt;
 }
 
 #buttons
@@ -88,6 +97,10 @@ p
     #buttons
     {
         margin-left: 12.5vw;
+    }
+    #secondHeader
+    {
+        width: 100%;
     }
 }
 
