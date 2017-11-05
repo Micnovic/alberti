@@ -15,11 +15,16 @@ h1
     font-style: italic;
 }
 
+#secondHeader
+{
+    margin-top: -29.5vw;
+    margin-left: -2vw;
+    line-height: 8vw;
+}
+
 h2
 {
-    font-size: 6.4vw;
-    margin-top: -28vw;
-    margin-left: -2vw;
+    font-size: 10vw;
     color: rgb(255,0,0);
     font-weight: bold;
     font-style: italic;
@@ -27,14 +32,42 @@ h2
 
 p
 {
-    font-size: 2vw;
+    font-size: 12pt;
     color: rgb(255,255,255);
     /*margin-top: -5.5vw;*/
     margin-left: -0.8vw;
     text-align: justify;
 }
 
-div
+#chapter
 {
-    margin-top: -5.5vw;
+    margin-top: -3vw;
+    margin-left: 13vw;
+}
+
+#buttons
+{
+    margin-top: 6vw;
+    margin-left: 12.5vw;
+}
+
+.floating-box
+{
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+    background-color: rgb(0, 255, 255);
+    font-size: 24pt;
+    text-align: center;
+    line-height: 80px;
+    color: rgb(0, 0, 0);
+}
+
+.floating-box:hover
+{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    box-shadow: 8px 8px rgb(255, 255, 255);
 }
