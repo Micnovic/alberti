@@ -8,8 +8,7 @@ body
 h1
 {
     font-size: 30vw;
-    margin-top: -8vw;
-    margin-left: -4vw;
+
     letter-spacing: -3vw;
     color: rgb(0,255,255);
     font-style: italic;
@@ -21,6 +20,14 @@ h1
     margin-left: -2vw;
     line-height: 8vw;
     animation-name: header2anim;
+    animation-duration: 0.4s;
+}
+
+#firstHeader
+{
+    margin-top: -26.5vw;
+    margin-left: -4vw;
+    animation-name: header1anim;
     animation-duration: 0.4s;
 }
 
@@ -84,8 +91,25 @@ p
     }
 }
 
+#stretch
+{
+    animation-name: stretchAnim;
+    animation-duration: 0.25s;
+}
+
+@keyframes stretchAnim {
+    from {height: 400vh}
+    to {height: 0vh}
+}
+
 @keyframes header2anim
 {
     from {margin-left: -120vw}
     to {margin-left: -2vw}
+}
+
+@keyframes header1anim
+{
+    from {margin-left: 200vw}
+    to {margin-left: -4vw}
 }
