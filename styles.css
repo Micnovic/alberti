@@ -20,6 +20,8 @@ h1
     margin-top: -29.5vw;
     margin-left: -2vw;
     line-height: 8vw;
+    animation-name: header2anim;
+    animation-duration: 0.4s;
 }
 
 h2
@@ -47,7 +49,6 @@ p
 #buttons
 {
     margin-top: 6vw;
-    margin-left: 12.5vw;
 }
 
 .floating-box
@@ -71,8 +72,20 @@ p
     box-shadow: 8px 8px rgb(255, 255, 255);
 }
 
-@media only screen and (min-width: 768px) {
-    .floating-box{
+@media only screen and (min-width: 768px)
+{
+    .floating-box
+    {
         width: 320px;
     }
+    #buttons
+    {
+        margin-left: 12.5vw;
+    }
+}
+
+@keyframes header2anim
+{
+    from {margin-left: -120vw}
+    to {margin-left: -2vw}
 }
