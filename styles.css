@@ -3,6 +3,15 @@ body
     background-color: rgb(255, 255, 255);
     font: 20px 'Roboto', sans-serif;
     color: rgb(0, 0, 0);
+
+    /*background: repeating-linear-gradient(
+    45deg,
+    rgba(255, 255, 0, 1),
+    rgba(255, 255, 255, 1) 3px,
+    rgba(255, 255, 255, 1) 30px,
+    rgba(255, 255, 255, 1) 30px
+)
+*/
 }
 
 h1
@@ -11,6 +20,15 @@ h1
     letter-spacing: -3vw;
     color: rgb(0,255,255);
     font-style: italic;
+}
+
+h3
+{
+    font-size: 12vw;
+    color: rgb(255,255,0);
+    margin-top: -8vw;
+    margin-right: -2vw;
+    text-align: right;
 }
 
 #secondHeader
@@ -57,7 +75,7 @@ p
 
 #chapter
 {
-    margin-top: 1vw;
+    margin-top: -18vw;
     margin-left: 13vw;
     line-height: 18pt;
 }
@@ -133,6 +151,17 @@ p
         font-size: 6.7vw;
         letter-spacing: 0vw;
         white-space: nowrap;
+    }
+
+    #chapter
+    {
+        margin-top: -14vw;
+    }
+
+    h3
+    {
+        margin-top: -6vw;
+        font-size: 10vw;
     }
 }
 
