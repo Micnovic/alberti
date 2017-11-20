@@ -1,189 +1,89 @@
 body
 {
-    background-color: rgb(255, 255, 255);
-    font: 20px 'Roboto', sans-serif;
-    color: rgb(0, 0, 0);
-
-    /*background: repeating-linear-gradient(
-    45deg,
-    rgba(255, 255, 0, 1),
-    rgba(255, 255, 255, 1) 3px,
-    rgba(255, 255, 255, 1) 30px,
-    rgba(255, 255, 255, 1) 30px
-)
-*/
+    background-color: rgb(0, 0, 0);
+    font: 12pt 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0px;
 }
 
 h1
 {
-    font-size: 30vw;
-    letter-spacing: -3vw;
-    color: rgb(0,255,255);
-    font-style: italic;
+    color: rgb(255,255,255);
+    line-height: 80%;
+    margin: 0px;
+    text-decoration: none;
+    font-size: 15vw;
 }
-
-h3
+h1:hover
 {
-    font-size: 12vw;
-    color: rgb(255,255,0);
-    margin-top: -8vw;
-    margin-right: -2vw;
-    text-align: right;
-}
-
-#secondHeader
-{
-    margin-top: -29.5vw;
-    margin-left: -2vw;
-    line-height: 8vw;
-    animation-name: header2anim;
-    animation-duration: 0.4s;
-    width: 80%;
-}
-
-#firstHeader
-{
-    margin-top: -26.5vw;
-    margin-left: -4vw;
-    animation-name: header1anim;
-    animation-duration: 0.35s;
-}
-
-#headers
-{
-    background-color: rgb(0, 0, 255);
-    margin-left: -2vw;
-    margin-right: -2vw;
-    padding-left: 2vw;
+    color: rgb(0,0,255);
 }
 
 h2
 {
-    font-size: 10vw;
-    color: rgb(255,0,0);
-    font-weight: bold;
-    font-style: italic;
+    font-size: 20pt;
 }
 
 p
 {
-    font-size: 12pt;
-    color: rgb(0,0,0);
-    margin-left: -0.8vw;
     text-align: justify;
+    font-weight: 10;
 }
 
 #chapter
 {
-    margin-top: -18vw;
-    margin-left: 13vw;
-    line-height: 18pt;
+    font: 11pt 'Open Sans', sans-serif;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
 
-#chapter::first-letter
+#links
 {
-    font-size: 42pt;
-    color: rgb(0, 255, 255);
-    font-style: italic;
-    line-height: 11pt;
+    font-size: 10vw;
 }
 
-#buttons
+span
 {
-    margin-top: 6vw;
+    color: rgb(0,0,255);
+    text-decoration: underline;
+    display: block;
 }
-
-.button {
-    background-color: rgb(0, 0, 255);
-    border: none;
+span:hover
+{
     color: rgb(255,255,255);
-    /*padding: 16px 32px;*/
-    text-align: center;
+}
+
+a
+{
+    color: rgb(255,255,255);
     text-decoration: none;
-    display: inline-block;
-    font-size: 36pt;
-    margin-right: 1vw;
-    margin-bottom: 2vw;
-    line-height: 36pt;
-    -webkit-transition-duration: 0.15s; /* Safari */
-    transition-duration: 0.15s;
-    cursor: pointer;
-    box-shadow: 0px 0px rgb(255, 255, 255);
-    width: 100%;
 }
-.button:hover {
-    background-color: rgb(255,0,0);
-    color: white;
-    box-shadow: 8px 8px rgb(0, 0, 0);
+a:hover
+{
+    color: rgb(0,0,255);
 }
+
+footer
+{
+    font-size: 8pt;
+    margin-top: 5vw;
+}
+
 
 @media only screen and (min-width: 768px)
 {
-    .floating-box
-    {
-        width: 320px;
-    }
-    .button
-    {
-        width: 320px;
-    }
-    #buttons
-    {
-        margin-left: 12.5vw;
-    }
-    #secondHeader
-    {
-        width: 100%;
-        margin-top: -20vw;
-
-    }
-    #firstHeader
-    {
-        margin-top: -18vw;
-    }
     h1
     {
-        font-size: 20vw;
-        letter-spacing: -2vw;
+        font-size: 4.8vw;
+        margin: 0px;
+        line-height: 120%;
     }
-    h2
+    span
     {
-        font-size: 6.7vw;
-        letter-spacing: 0vw;
-        white-space: nowrap;
+        display: inline;
     }
-
-    #chapter
+    #links
     {
-        margin-top: -14vw;
+        font-size: 20pt;
     }
-
-    h3
-    {
-        margin-top: -6vw;
-        font-size: 10vw;
-    }
-}
-
-#stretch
-{
-    animation-name: stretchAnim;
-    animation-duration: 0.2s;
-}
-
-@keyframes stretchAnim {
-    from {height: 400vh}
-    to {height: 0vh}
-}
-
-@keyframes header2anim
-{
-    from {margin-left: -120vw}
-    to {margin-left: -2vw}
-}
-
-@keyframes header1anim
-{
-    from {margin-left: 200vw}
-    to {margin-left: -4vw}
 }
