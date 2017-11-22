@@ -13,6 +13,8 @@ h1
     margin: 0px;
     text-decoration: none;
     font-size: 15vw;
+    /*text-shadow: 2px 0px hsl(190, 100%, 50%), -2px 0px hsl(40, 100%, 50%);*/
+    text-shadow: 2px 0px hsl(60, 100%, 50%), -2px -0px hsl(0, 100%, 50%);
 }
 h1:hover
 {
@@ -22,24 +24,28 @@ h1:hover
 h2
 {
     font-size: 20pt;
+    /*text-shadow: 2px 0px hsl(190, 100%, 50%), -2px 0px hsl(40, 100%, 50%);*/
+    text-shadow: 1px 0px hsl(60, 100%, 50%), -1px -0px hsl(0, 100%, 50%);
 }
 
 p
 {
     text-align: justify;
     font-weight: 10;
+    text-shadow: 1px 0px hsl(190, 100%, 50%), -1px 0px hsl(40, 100%, 50%);
 }
 
 #chapter
 {
     font: 11pt 'Open Sans', sans-serif;
     margin-top: 5vw;
-    margin-bottom: 5vw;
+    margin-bottom: 3vw;
 }
 
 #links
 {
     font-size: 10vw;
+    text-shadow: 1px 0px hsl(90, 100%, 50%);
 }
 
 span
@@ -84,6 +90,6 @@ footer
     }
     #links
     {
-        font-size: 20pt;
+        font-size: 14pt;
     }
 }
