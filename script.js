@@ -46,14 +46,26 @@ var changeQuarter = function(quarter)
 
 image.onmouseenter = function()
 {
-    // image.style.left = Math.random()*w-500+"px";
-    // image.style.top = Math.random()*h-500+"px";
+    image.style.left = Math.random()*w-500+"px";
+    image.style.top = Math.random()*h-500+"px";
 
-    currentQuarter = changeQuarter(currentQuarter);
-    var randomPosition = randomPositionInQuarter(currentQuarter);
-    console.log(currentQuarter);
-    image.style.left = randomPosition[0] + "px";
-    image.style.top = randomPosition[1] + "px";
+    // currentQuarter = changeQuarter(currentQuarter);
+    // var randomPosition = randomPositionInQuarter(currentQuarter);
+    // console.log(currentQuarter);
+    // image.style.left = randomPosition[0] + "px";
+    // image.style.top = randomPosition[1] + "px";
+}
+
+image.ontouchstart = function()
+{
+    image.style.left = Math.random()*w-500+"px";
+    image.style.top = Math.random()*h-500+"px";
+
+    // currentQuarter = changeQuarter(currentQuarter);
+    // var randomPosition = randomPositionInQuarter(currentQuarter);
+    // console.log(currentQuarter);
+    // image.style.left = randomPosition[0] + "px";
+    // image.style.top = randomPosition[1] + "px";
 }
 
 
