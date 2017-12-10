@@ -43,11 +43,28 @@ var changeQuarter = function(quarter)
     else {return quarter += 1;}
 }
 
+var posX = Math.random()*w;
+var posY = -500+Math.random()*h;
+image.style.left = posX + "px";
+image.style.top = posY + "px";
+
 
 image.onmouseenter = function()
 {
-    image.style.left = Math.random()*w-500+"px";
-    image.style.top = Math.random()*h-500+"px";
+    // image.style.left = Math.random()*w-500+"px";
+    // image.style.top = Math.random()*h-500+"px";
+    if(posX < w/4)
+    {
+        posX = Math.random()*w;
+        posY = -500+Math.random()*h;
+    }
+    else
+    {
+        posX = -350;
+        posY = -500+Math.random()*h;
+    }
+    image.style.left = posX + "px";
+    image.style.top = posY + "px";
 
     // currentQuarter = changeQuarter(currentQuarter);
     // var randomPosition = randomPositionInQuarter(currentQuarter);
