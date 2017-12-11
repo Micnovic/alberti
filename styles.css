@@ -69,7 +69,7 @@ p
     line-height: 18pt;
 }
 
-#chapter::first-letter
+p::first-letter
 {
     font-size: 42pt;
     color: rgb(0, 255, 255);
@@ -85,12 +85,12 @@ p
 .button {
     background-color: rgb(0, 255, 255);
     border: none;
-    color: rgb(0,0,0);
+    color: rgb(0,0,255);
     /*padding: 16px 32px;*/
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 24pt;
+    font-size: 20pt;
     margin-right: 1vw;
     margin-bottom: 2vw;
     line-height: 36pt;
@@ -114,7 +114,7 @@ p
     }
     .button
     {
-        width: 320px;
+        width: 48%;
     }
     #buttons
     {
