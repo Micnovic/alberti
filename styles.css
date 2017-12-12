@@ -81,6 +81,13 @@ p
     line-height: 18pt;
 }
 
+#links
+{
+    line-height: -20pt;
+    margin-top: -3vw;
+    margin-left: 2vw;
+}
+
 p::first-letter
 {
     font-size: 42pt;
@@ -105,7 +112,7 @@ p::first-letter
     font-size: 20pt;
     margin-right: 1vw;
     margin-bottom: 2vw;
-    line-height: 36pt;
+    line-height: 24pt;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
@@ -128,6 +135,7 @@ p::first-letter
     {
         width: 48%;
     }
+
     #buttons
     {
         margin-left: 12.5vw;
