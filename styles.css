@@ -54,6 +54,16 @@ h2
     font-style: italic;
 }
 
+h3
+{
+    font-size: 36pt;
+    color: rgb(255,255,0);
+    line-height: 48pt;
+    text-align: right;
+    margin-bottom: -32pt;
+    margin-top: -48pt;
+}
+
 p
 {
     font-size: 12pt;
