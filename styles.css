@@ -57,11 +57,13 @@ h2
 h3
 {
     font-size: 36pt;
-    color: rgb(255,255,0);
-    line-height: 48pt;
+    color: rgba(255,255,255,0.5);
+    line-height: 30pt;
+    letter-spacing: -3pt;
     text-align: right;
-    margin-bottom: -32pt;
-    margin-top: -48pt;
+    margin-bottom: -28pt;
+    margin-top: -30pt;
+    padding-left: 20vw;
 }
 
 p
